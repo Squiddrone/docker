@@ -24,7 +24,6 @@ RUN apt-get update \
     && rm -rf share/doc \
     #&& curl -L "$GCC_URL" -o gcc.tar.bz2 \
     && apt-get purge -y \
-    wget \
     bzip2
 
 ENV PATH "/home/dev/bin:$PATH"
