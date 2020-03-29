@@ -22,7 +22,6 @@ RUN apt-get update \
     && tar -jxf gcc.tar.bz2 --strip=1 \
     && rm -f gcc.tar.bz2 \
     && rm -rf share/doc \
-    #&& curl -L "$GCC_URL" -o gcc.tar.bz2 \
     && apt-get purge -y \
     bzip2
 
