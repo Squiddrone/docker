@@ -4,9 +4,12 @@
 
 A docker environment with all necessary dependencies to build [Squiddrone project](https://github.com/elheck/Squiddrone).
 
-Included are:
+It includes:
 *   CMake, v3.13.4
-*   GCC
-*   ARM GCC in version 2019q4 major
-*   doxygen with graphviz
-*   lcov (for CodeCoverage)
+*   GCC, v9.2.1
+*   ARM GCC, v2019q4 major
+*   doxygen, v1.8.13
+*   graphviz, v2.40.1
+*   lcov, v1.14 (needed by CodeCov)
+*   curl, v7.65.3 (needed by CodeCov and ReportCI)
+*   python2, v2.7.17 (needed by ReportCI)
