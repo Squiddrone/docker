@@ -15,6 +15,7 @@ RUN apt-get update \
     git=1:2.20.1-2ubuntu1.19.10.1 \
     ca-certificates=20190110 \
     curl=7.65.3-1ubuntu3 \
+    python=2.7.17-1 \
     && rm -rf /var/lib/apt/lists/* \
     && cmake --version \
     && export GCC_URL="https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/RC2.1/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2?revision=6e63531f-8cb1-40b9-bbfc-8a57cdfc01b4&la=en&hash=F761343D43A0587E8AC0925B723C04DBFB848339" \
