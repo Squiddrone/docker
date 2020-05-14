@@ -5,17 +5,17 @@ WORKDIR /home/dev
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-    cmake=3.13.4-1build1 \
-    libc6-i386=2.30-0ubuntu2.1 \
-    bzip2=1.0.6-9.2 \
-    build-essential=12.8ubuntu1 \
-    doxygen=1.8.13-10ubuntu3 \
-    lcov=1.14-2 \
-    graphviz=2.40.1-7build1 \
-    git=1:2.20.1-2ubuntu1.19.10.1 \
+    cmake=3.13.* \
+    libc6-i386=2.30-* \
+    bzip2=1.0.* \
+    build-essential=12.8* \
+    doxygen=1.8.* \
+    lcov=1.14-* \
+    graphviz=2.40.* \
+    git=1:2.20.* \
     ca-certificates=20190110 \
-    curl=7.65.3-1ubuntu3 \
-    python=2.7.17-1 \
+    curl=7.65.* \
+    python=2.7.* \
     && rm -rf /var/lib/apt/lists/* \
     && export GCC_URL="https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/RC2.1/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2" \
     && curl -L "$GCC_URL" -o gcc.tar.bz2 \
