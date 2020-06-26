@@ -8,6 +8,7 @@ RUN apt-get update \
     build-essential=12.8* \
     bzip2=1.0.* \
     ca-certificates=20190110 \
+    clang-format=1:9.0-* \
     cmake=3.13.* \
     curl=7.65.* \
     doxygen=1.8.* \
