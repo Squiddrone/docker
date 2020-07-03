@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b008f1f3527344a193e676ed6be2c84a)](https://www.codacy.com/manual/ThorsHamster/Squiddrone_Docker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ThorsHamster/Squiddrone_Docker&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0fe1811b17a449adbda21c6f5122219f)](https://www.codacy.com/gh/Squiddrone/docker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Squiddrone/docker&amp;utm_campaign=Badge_Grade)
 
 # Squiddrone_Docker
 
