@@ -2,7 +2,7 @@
 
 # Squiddrone_Docker
 
-A docker environment with all necessary dependencies to build [Squiddrone project](https://github.com/elheck/Squiddrone).
+A docker environment with all necessary dependencies to build [Squiddrone project](https://github.com/Squiddrone/Squiddrone).
 
 It includes:
 *   CMake, v3.13
